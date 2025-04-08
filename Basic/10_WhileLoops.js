@@ -1,6 +1,5 @@
-//While loops
-
-//Syntex
+//while loops
+//Syntax
 // while (condition) {
 //     // code block to be executed
 // }
@@ -12,24 +11,23 @@
 //     i++;
 // }
 
-//do while loop
-//Syntex
-// do {
+//do while loops
+//Syntax
+
+// do { 
 //     // code block to be executed
 // } while (condition);
 //Example
-// let j = 5;
-// do {
-//     console.log(j);
-//     j++;
-// }
-// while (j < 5);
+let i = 0;
+do {
+    console.log(i);
+    i++;
+} while (i < 5);
 
-//Practical Example
+//Real Life Example
 let password = "";
 let correctPassword = "admin";
 do {
     password = prompt("Enter your password:");
-}
-while (password !== correctPassword);
-console.log("Acess granted!");
+} while (password !== correctPassword); 
+console.log("Access granted!");

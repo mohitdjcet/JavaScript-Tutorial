@@ -18,3 +18,5 @@ let str = true;
 let ValueToString = String(str); // Convert number to string
 console.log(ValueToString);
 console.log(typeof ValueToString);
+
+console.log("String: ", str);
